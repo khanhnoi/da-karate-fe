@@ -1,0 +1,93 @@
+.button-new {
+  font-family: SFUIText;
+  margin-right: 1rem;
+  border-radius: 5px;
+  background-color: #002643;
+  color: #fff;
+  border: none;
+  outline: none;
+  height: 40px;
+  span {
+    padding: 0.5rem 1.5rem;
+    display: inline-block;
+    border: none;
+  }
+  &-cancel {
+    background-color: #8898aa;
+  }
+  &-red {
+    background-color: initial;
+    margin-left: 15px;
+    color: #ed1c24;
+    border: 1px solid #ed1c24;
+  }
+  &-close {
+    color: #ed1c24;
+    background-color: initial;
+    border: none;
+    margin-left: 0;
+    span {
+      border-radius: 5px;
+      border: 1px solid #ed1c24;
+      padding: 12px;
+      width: 48px;
+      height: 48px;
+    }
+  }
+  &:focus {
+    outline: none;
+  }
+}
+
+.btn-new {
+  font-family: SFUIText;
+  span.lnr {
+    font-weight: 600;
+  }
+  color: #2e3192;
+  align-items: center;
+  transition: unset;
+  min-width: 125px;
+  border-radius: 8px;
+  height: 36px !important;
+  border: 1px solid #2e3192 !important;
+  margin: 0 15px;
+  margin-bottom: 10px;
+  height: 40px !important;
+  &-event {
+    span {
+      font-size: 15px;
+    }
+  }
+  &:hover {
+    background-color: #2e3192;
+    color: #fff !important;
+  }
+}
+
+.btn-cancel {
+  background-color: #8898aa !important;
+  font-family: SFUIText;
+  span.lnr {
+    font-weight: 600;
+  }
+  color: #fff !important;
+  align-items: center;
+  transition: unset;
+  min-width: 125px;
+  border-radius: 8px;
+  height: 36px !important;
+  border: 1px solid #8898aa !important;
+  margin: 0 15px;
+  margin-bottom: 10px;
+  height: 40px !important;
+  &:hover {
+    background-color: #2e3192 !important;
+    border: 1px solid #2e3192 !important;
+    color: #fff !important;
+  }
+}
+
+.hei-40px {
+  height: 40px;
+}

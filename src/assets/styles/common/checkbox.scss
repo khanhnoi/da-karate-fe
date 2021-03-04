@@ -1,0 +1,45 @@
+.custom-checkbox {
+  &-table {
+    &-header {
+      .custom-control-label {
+        &::before {
+          top: -25px !important;
+        }
+        &::after {
+          top: -25px !important;
+        }
+      }
+    }
+    .custom-control-label {
+      &::before {
+        width: 24px;
+        height: 24px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, 0);
+      }
+      &::after {
+        width: 24px;
+        height: 24px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, 0);
+      }
+    }
+  }
+  .custom-control-label {
+    cursor: pointer;
+    outline: none;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .custom-control-input:checked ~ .custom-control-label::before {
+    background-color: #2DCE98;
+    outline: none;
+  }
+}

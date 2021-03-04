@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="393" height="188" viewBox="0 0 393 188">
+    <defs>
+        <style>
+            .cls-1{fill:#fff;stroke:#707070}.cls-2{clip-path:url(#clip-path)}.cls-3{fill:#696974}
+        </style>
+        <clipPath id="clip-path">
+            <rect id="Rectangle_351" width="393" height="188" class="cls-1" data-name="Rectangle 351" rx="5" transform="translate(930 730)"/>
+        </clipPath>
+    </defs>
+    <g id="Mask_Group_1" class="cls-2" data-name="Mask Group 1" transform="translate(-930 -730)">
+        <g id="Image" transform="translate(976.1 664.2)">
+            <path id="Path_247" d="M291.4 65.8H28.2a4.7 4.7 0 0 0-4.7 4.7v14.1H9.4a4.7 4.7 0 0 0-4.7 4.7v159.8a4.7 4.7 0 0 0 4.7 4.7h263.2a4.7 4.7 0 0 0 4.7-4.7V235h14.1a4.7 4.7 0 0 0 4.7-4.7V70.5a4.7 4.7 0 0 0-4.7-4.7zM267.9 94v109.216l-38.689-46.427a4.7 4.7 0 0 0-6.932-.315L164.5 214.253l-85.977-85.976a4.7 4.7 0 0 0-6.647 0L14.1 186.053V94zM14.1 199.347l61.1-61.1L181.353 244.4H14.1zM194.647 244.4l-23.5-23.5 54.138-54.137L267.9 217.9v26.5zm92.053-18.8h-9.4V89.3a4.7 4.7 0 0 0-4.7-4.7H32.9v-9.4h253.8z" class="cls-3" data-name="Path 247"/>
+            <path id="Path_248" d="M178.6 164.5a28.2 28.2 0 1 0-28.2-28.2 28.2 28.2 0 0 0 28.2 28.2zm0-47a18.8 18.8 0 1 1-18.8 18.8 18.8 18.8 0 0 1 18.8-18.8z" class="cls-3" data-name="Path 248"/>
+            <path id="Path_249" d="M56.4 225.6H28.2a4.7 4.7 0 1 0 0 9.4h28.2a4.7 4.7 0 1 0 0-9.4z" class="cls-3" data-name="Path 249"/>
+            <path id="Path_250" d="M75.2 225.6h-4.7a4.7 4.7 0 1 0 0 9.4h4.7a4.7 4.7 0 0 0 0-9.4z" class="cls-3" data-name="Path 250"/>
+        </g>
+    </g>
+</svg>

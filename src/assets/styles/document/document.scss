@@ -1,0 +1,242 @@
+.document-detail {
+    &-content {
+        word-wrap: break-word;
+        &-des {
+            font-style: italic;
+            font-weight: bold;
+        }
+    }
+    &-title {
+        p {
+            font-size: 25px;
+            font-weight: bold;
+            line-height: 1.32;
+            color: #0f0f0f;
+        }
+    }
+
+    &-author {
+        p {
+            font-size: 12px;
+            line-height: 1.67;
+            color: #0f0f0f;
+        }
+        span {
+            margin: 0 1rem;
+        }
+        img {
+            margin: 0 1rem;
+        }
+    }
+
+    &-files {
+        margin-top: 1rem;
+
+        &-title {
+            flex: 0 0 100%;
+            max-width: 100%;
+            font-family: SFUIText;
+            font-size: 21px;
+            font-weight: 600;
+            line-height: 1.19;
+            color: #172b4d;
+            margin-bottom: 1rem;
+        }
+
+        &-item {
+            img {
+                min-width: 200px;
+                max-width: 100%;
+            }
+        }
+        p {
+            margin-bottom: 0;
+        }
+        svg {
+            max-width: 200px;
+        }
+    }
+    &-comment {
+        margin-top: 1rem;
+
+        &-title {
+            font-family: SFUIText;
+            font-size: 21px;
+            font-weight: 600;
+            line-height: 1.19;
+            color: #172b4d;
+            margin-top: 1rem;
+        }
+
+        &-item {
+            margin-top: 1rem;
+            padding-left: 15px;
+            margin-right: 15px;
+            &-rep {
+                width: 100%;
+                padding-left: 45px;
+            }
+            &-avatar {
+                flex: 0 0 80px;
+                max-width: 80px;
+                img {
+                    border-radius: 50%;
+                    max-width: 60px;
+                    min-width: 60px;
+                    max-height: 60px;
+                    min-height: 60px;
+                }
+            }
+
+            &-text {
+                flex: 0 0 calc(100% - 80px);
+                max-width: calc(100% - 80px);
+                & > div {
+                    flex: 0 0 100%;
+                    max-width: 100%;
+                }
+            }
+
+            &-border {
+                background-color: #f1f3f9;
+                border-radius: 22px;
+                padding-right: 2rem;
+                & > div {
+                    p {
+                        padding-top: 1rem;
+                    }
+                }
+            }
+
+            &-name {
+                font-family: SFUIText;
+                font-size: 15px;
+                font-weight: bold;
+                line-height: 1.33;
+                text-align: left;
+                color: #2e3192;
+                margin: auto 15px;
+            }
+
+            &-cmt {
+                font-family: SFUIText;
+                font-size: 15px;
+                line-height: 1.33;
+                text-align: left;
+                color: #000;
+                margin: auto 15px;
+            }
+        }
+
+        &-chat {
+            margin-left: 5%;
+            margin-top: 3rem;
+            margin-bottom: 3rem;
+            &-avatar {
+                flex: 0 0 10%;
+                max-width: 10%;
+
+                img {
+                    border-radius: 50%;
+                    max-width: 60px;
+                    min-width: 60px;
+                    max-height: 60px;
+                    min-height: 60px;
+                }
+            }
+
+            &-input {
+                position: relative;
+                margin-left: 2%;
+                flex: 0 0 80%;
+                max-width: 80%;
+                display: flex;
+                background-color: #f1f3f9;
+                border-radius: 26px;
+                &-rep {
+                    display: flex;
+                    flex-wrap: wrap;
+                    & > div {
+                        flex: 0 0 100%;
+                        max-width: 100%;
+                        font-family: SFUITextLight;
+                        font-size: 15px;
+                        line-height: 1.33;
+                        text-align: left;
+                        p {
+                            margin-top: 1rem;
+                            padding-left: 1rem;
+                        }
+                        span {
+                            font-weight: 700;
+                        }
+                        .-clear {
+                            color: #2e3192;
+                            margin-left: auto;
+                            margin-right: 5rem;
+                            margin-top: 1rem;
+                            cursor: pointer;
+                        }
+                    }
+                }
+                input {
+                    flex: 0 0 100%;
+                    margin: auto;
+                    min-height: 50px;
+                    width: 100%;
+                    padding-left: 1rem;
+                    border: none;
+                    background-color: #f1f3f9;
+                    border-radius: 26px;
+                    &:focus {
+                        outline: none;
+                    }
+                }
+
+                img {
+                    position: absolute;
+                    right: 1rem;
+                    top: 50%;
+                    transform: translate(0, -50%);
+                }
+            }
+        }
+        &-see {
+            cursor: pointer;
+            padding: 0 15px;
+            margin-top: 1rem;
+            display: inline-block;
+            p {
+                color: #8898aa;
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+.background-img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+.lib-img {
+    border-radius: 10px;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+    flex: 0 0 calc(50% - 30px);
+    max-width: calc(50% - 30px);
+    margin: 0 15px;
+    margin-top: 1rem;
+    & > div {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    p {
+        margin-top: 1rem;
+        color: #2e3192;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 1.7;
+    }
+}

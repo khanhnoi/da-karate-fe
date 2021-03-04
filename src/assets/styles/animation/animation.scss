@@ -1,0 +1,29 @@
+@keyframes zoom_active {
+  0% {
+    box-shadow: 0 0 0 0 transparent;
+  }
+  35% {
+    box-shadow: 0 0 8px 6px greenyellow;
+  }
+  70% {
+    box-shadow: 0 0 0 0 transparent;
+  }
+  100% {
+    box-shadow: 0 0 8px 6px greenyellow;
+  }
+}
+
+@keyframes zoom_black {
+  0% {
+    box-shadow: 0 0 0 0 transparent;
+  }
+  35% {
+    box-shadow: 0 0 8px 6px black;
+  }
+  70% {
+    box-shadow: 0 0 0 0 transparent;
+  }
+  100% {
+    box-shadow: 0 0 8px 6px black;
+  }
+}

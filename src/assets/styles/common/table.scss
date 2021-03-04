@@ -1,0 +1,135 @@
+.table-thead {
+  background-color: #ececf9;
+  tr {
+    th {
+      border: none !important;
+    }
+  }
+
+  .table-header {
+    color: #0c0f66;
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+}
+
+.table-wrapper {
+  margin: 0 -15px;
+}
+.table {
+  margin-bottom: 0 !important;
+}
+
+.top-table {
+  padding-bottom: 1.5rem;
+  position: absolute;
+  top: 75px;
+  z-index: 2000;
+  width: 50% !important;
+  &-title {
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    &-small {
+      font-size: 20px;
+      font-weight: normal;
+    }
+  }
+  &-text {
+    font-family: SFUIText;
+    font-size: 15px;
+    color: #fff;
+  }
+  &-border {
+    max-width: 34px;
+    margin: 8px 0;
+    border: 2px solid #fff;
+    margin-left: 15px;
+  }
+  &--custom {
+    padding: 0 55px;
+  }
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: none;
+  transition: 0s;
+  tr th {
+    white-space: nowrap;
+    border-bottom-width: 1px;
+  }
+}
+
+.table-tbody {
+  tr {
+    td {
+      border: none !important;
+      &.width-300 {
+        min-width: 300px;
+      }
+      &.width-200 {
+        min-width: 200px;
+      }
+      &.width-150 {
+        min-width: 150px;
+      }
+      &:first-child {
+        min-width: auto;
+      }
+    }
+    &:nth-child(even) {
+      background-color: #f7fafc !important;
+      td {
+        background-color: #f7fafc !important;
+      }
+    }
+  }
+}
+td > div {
+  & > span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* number of lines to show */
+    -webkit-box-orient: vertical;
+    &:hover {
+      display: block;
+    }
+  }
+}
+
+.form-title {
+  font-family: SFUITextBold;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 1.32;
+  color: #0f0f0f;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+tr td.fixed-collumn,
+tr th:last-child {
+  position: -webkit-sticky;
+  position: sticky;
+  right: -1px;
+  white-space: nowrap;
+  min-width: 80px;
+  z-index: 10;
+  background-color: #fff;
+}
+
+tr th:last-child {
+  background-color: #ececf9 !important;
+}
+
+.px-15px {
+  padding: 0 15px;
+}
+
+.px-30px {
+  padding: 0 30px;
+}

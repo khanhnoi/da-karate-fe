@@ -1,0 +1,31 @@
+.form-search {
+  width: 360px;
+  height: 40px;
+  padding-right: 20px;
+  border-radius: 30px;
+  background-color: #fff;
+  border: 1px solid transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  background-color: #f7fafc;
+
+  &-icon {
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+  }
+
+  &-input {
+    width: 270px;
+    border: transparent;
+    color: #455571;
+    background-color: #f7fafc;
+    padding-left: 15px;
+    border: none;
+    &:focus {
+      outline: none;
+    }
+  }
+}

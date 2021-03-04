@@ -1,0 +1,101 @@
+#invalid-feedback-custom {
+  display: block;
+}
+textarea {
+  &.input-form {
+    &.custom-text-area {
+      height: auto;
+      max-height: unset;
+      padding-bottom: 16px;
+    }
+  }
+}
+.box-belt-custom {
+  background-color: #dee2e6;
+  width: auto;
+}
+.box-belt-dot-custom {
+  margin-left: 10px;
+}
+.box-certificate-icon {
+  .img-certificate {
+    width: 20px;
+    height: 20px;
+  }
+}
+.title-main-form {
+  font-family: SFUIText;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #172b4d;
+}
+.login-form-check-forgot a {
+  font-family: SFUIText;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.54;
+  letter-spacing: normal;
+  text-align: left;
+  color: #172b4d;
+}
+.text-custom {
+  font-family: SFUIText-Medium;
+  font-size: 15px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: left;
+  color: #172b4d;
+}
+.status-custom-0 {
+  border-radius: 4px;
+  background-color: #0baa00;
+  color: #ffffff;
+  border: 1px solid #0baa00;
+  padding: 8px 14px;
+}
+.status-custom-1 {
+  color: #ffffff;
+  border-radius: 4px;
+  background-color: #fec92f;
+  border: 1px solid #fec92f;
+  padding: 8px 14px;
+}
+.status-custom-2 {
+  color: #ffffff;
+  border-radius: 4px;
+  background-color: #ed1c24;
+  border: 1px solid #ed1c24;
+  padding: 8px 14px;
+}
+.status-custom-3 {
+  color: #ffffff;
+  border-radius: 4px;
+  background-color: #0baa00;
+  border: 1px solid #0baa00;
+  padding: 8px 14px;
+}
+.status-custom-4 {
+  color: #ffffff;
+  border-radius: 4px;
+  background-color: #8898aa;
+  border: 1px solid #8898aa;
+  padding: 4px 25px;
+}
+.block-button-custom {
+  height: fit-content;
+  
+  .btn-new {
+    margin: auto;
+    outline: none;
+  }
+}

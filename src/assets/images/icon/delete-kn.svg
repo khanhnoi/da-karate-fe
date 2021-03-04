@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="prefix__cancel_1_" width="18" height="18" data-name="cancel (1)" viewBox="0 0 18 18">
+    <defs>
+        <style>
+            .prefix__cls-1{fill:#ed1c24}
+        </style>
+    </defs>
+    <g id="prefix__Group_3129" data-name="Group 3129">
+        <g id="prefix__Group_3128" data-name="Group 3128">
+            <path id="prefix__Path_2038" d="M16.364 0H1.636A1.638 1.638 0 0 0 0 1.636v14.728A1.638 1.638 0 0 0 1.636 18h14.728A1.638 1.638 0 0 0 18 16.364V1.636A1.638 1.638 0 0 0 16.364 0zm.818 16.364a.819.819 0 0 1-.818.818H1.636a.819.819 0 0 1-.818-.818V1.636a.819.819 0 0 1 .818-.818h14.728a.819.819 0 0 1 .818.818z" class="prefix__cls-1" data-name="Path 2038"/>
+            <path id="prefix__Path_2039" d="M136.063 128.12a.409.409 0 0 0-.578 0l-3.393 3.393-3.392-3.393a.409.409 0 1 0-.578.578l3.393 3.393-3.393 3.393a.409.409 0 1 0 .579.578l3.393-3.393 3.393 3.393a.409.409 0 0 0 .578-.578l-3.393-3.393 3.393-3.393a.409.409 0 0 0-.002-.578z" class="prefix__cls-1" data-name="Path 2039" transform="translate(-123.092 -123.091)"/>
+        </g>
+    </g>
+</svg>

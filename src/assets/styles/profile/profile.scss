@@ -1,0 +1,130 @@
+.popup-content {
+    .modal-custom {
+        .popup-header {
+            color: #002643;
+            font-size: 32px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .popup-body {
+            padding: 10px 50px 30px 50px;
+            .col-last-custom {
+                padding-top: 20px;
+            }
+        }
+    }
+}
+
+.btn-submit-profile {
+    background-color: #fff;
+    border: none;
+}
+
+.form-group-custom {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.select-custom-search {
+    width: auto !important;
+    margin-top: 2px;
+    padding-right: 30px !important;
+    border-radius: 8px !important;
+    -webkit-appearance: none;
+    background-size: 14px 14px;
+    background: url(../../images/icon/down-select.svg) no-repeat 90% #fff;
+    &:focus {
+        border: 1px solid #002643 !important;
+        outline: none !important;
+        box-shadow: none !important;
+    }
+}
+
+.distributor-nav-custom {
+    .col-4 {
+        padding: 0px 4px;
+    }
+}
+
+.distributor-nav-item-custom {
+    max-width: 100%;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    color: #012e50;
+}
+.name-header-custom {
+    margin-left: 0px !important;
+}
+
+.content-customer-detail {
+    padding: 20px;
+
+    .title {
+        font-size: 21px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.19;
+        color: #172b4d;
+    }
+
+    .label {
+        font-size: 15px;
+        line-height: 1.67;
+        color: #012e50;
+        font-weight: 600;
+    }
+
+    span {
+        font-size: 15px;
+        line-height: 1.67;
+        color: #012e50;
+        font-weight: normal;
+    }
+}
+.form-group-custom-file {
+    .upload_file {
+        display: none;
+    }
+
+    .input-form-custom-file {
+        position: relative;
+        span {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
+        }
+
+        .icon-folder {
+            font-size: 35px;
+            float: right;
+            line-height: 25px;
+            position: absolute;
+            right: 10px;
+            top: 11px;
+        }
+    }
+}
+
+.btn-add-custom {
+    margin-top: 3px !important;
+    text-decoration: none !important;
+}
+
+.text-area-custom {
+    .ck-content {
+        height: 250px !important;
+    }
+}
+
+.avatar-custom {
+    img {
+        border-radius: 25px;
+        object-fit: cover;
+        width: 100%;
+        border: 1px solid #495057;
+    }
+}

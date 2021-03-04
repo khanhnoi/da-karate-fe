@@ -1,0 +1,145 @@
+.box-select-donate-left {
+  width: 100%;
+  margin-left: -15px;
+  display: flex;
+  justify-content: center;
+  .col-select {
+    width: 45%;
+  }
+  .col-space {
+    width: 5%;
+  }
+  .form-control-donate {
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+    font-family: 'Muli', sans-serif !important;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+
+    //custom datepicker donate
+    .react-date-picker__wrapper {
+      border: transparent;
+    }
+    .react-date-picker__clear-button {
+      position: relative;
+      &:before {
+        content: "x";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top:-4px;
+        color: red;
+        font-size: 1.3rem;
+      }
+      &:hover::before {
+        text-shadow: 0 0 1px;
+      }
+      &:focus {
+        outline: transparent;
+      }
+    }
+    .react-date-picker__calendar-button {
+      &:focus {
+        outline: transparent;
+      }
+    }
+    .react-date-picker__inputGroup__input {
+      &:focus {
+        outline: transparent;
+      }
+      cursor: pointer;
+    }
+  }
+}
+.box-select-donate-right {
+  .btn-new {
+    margin: 0 0px;
+    margin-bottom: 0px;
+  }
+}
+.box-donate {
+  width: 95%;
+  min-height: 100px;
+  padding: 15px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  background-color: #f1f3f9;
+  border-radius: 10px;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 2.3px 17.9px rgba(0, 0, 0, 0.072), 0px -5px 5px rgba(0, 0, 0, 0.09);
+  &-title {
+    p {
+      font-family: SFUIText;
+      font-size: 12px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.18;
+      letter-spacing: normal;
+      text-align: left;
+      color: #0f0f0f;
+      text-transform: uppercase;
+    }
+  }
+  &-content {
+    display: flex;
+    justify-content: space-between;
+    &-text {
+      width: 80%;
+      display: flex;
+      p {
+        margin-top: auto;
+        margin-bottom: auto;
+        font-family: SFUIText;
+        font-size: 20px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 0.91;
+        letter-spacing: normal;
+        text-align: left;
+        color: #4d4f5c;
+      }
+    }
+    &-icon {
+      width: 20%;
+      margin: 0 5px;
+      img {
+        width: 100%;
+        transition: $transtion_time;
+        &:hover {
+          transform: scale(1.00);
+        }
+      }
+    }
+  }
+  &--left {
+    margin-right: auto;
+  }
+  &--right {
+    margin-left: auto;
+  }
+  &--center {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+.custom-donate {
+  .ck-content {
+    min-height: 150px;
+  }
+}

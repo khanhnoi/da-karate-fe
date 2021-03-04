@@ -1,0 +1,114 @@
+@import './variables/variables.scss';
+@import './animation/animation.scss';
+@import './custom/custom.scss';
+@import './responsive/responsive.scss';
+@import './common/date_picker.scss';
+@import './common/input.scss';
+@import './common/table.scss';
+@import './common/button.scss';
+@import './profile/profile.scss';
+@import './login/login.scss';
+@import './register/register.scss';
+@import './menu/menu.scss';
+@import './common/pagenatie.scss';
+@import './header/header.scss';
+@import './statistic/statistic.scss';
+@import './club/club.scss';
+@import './content/content.scss';
+
+@import './student/student.scss';
+@import './common/input_search.scss';
+@import './common/select.scss';
+@import './common/status_user.scss';
+@import './common/avatar.scss';
+@import './common/checkout.scss';
+
+@import './common/table.scss';
+@import './common/checkbox.scss';
+@import './common/avatar.scss';
+@import './common/buttons.scss';
+@import './common/belt.scss';
+@import './common/form_add.scss';
+@import './common/pagination.scss';
+@import './common/table_custom.scss';
+@import './common/information.scss';
+@import './common/box_belt.scss';
+
+@import './document/document.scss';
+@import './permission/permission.scss';
+@import '../styles/dashboard/dashboard.scss';
+@import './competition/competition.scss';
+@import './exam/exam.scss';
+@import './donate/donate.scss';
+@import './course/course.scss';
+@import './bug/fixbug.scss';
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: SFUIText;
+}
+//test display components
+html {
+}
+body {
+  background-color: #f1f3f9 !important;
+  &::-webkit-scrollbar {
+    width: 4px;
+  }
+  &::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 4px rgba(59, 42, 165, 0.5);
+  }
+
+  &::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 25px rgba(#5C65AF, 1);
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.body-right {
+  width: 100%;
+  min-height: 101vh;
+  padding-left: $margin_left_body;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: $transtion_time;
+
+  background-color: $bg-color;
+  &-bottom {
+    width: 100%;
+    background-color: $bg-color;
+    padding: 20px;
+  }
+}
+
+.page-wrapper {
+  margin-left: 280px;
+}
+
+.container-shadow {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0px -5px 5px rgba(0, 0, 0, 0.09);
+}
+a:hover {
+  text-decoration: none !important;
+}
+
+.swal2-title {
+  font-size: 0.875em !important;
+}
+
+.ck.ck-editor__editable_inline {
+  min-height: 200px;
+}

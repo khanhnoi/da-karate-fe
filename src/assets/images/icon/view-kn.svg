@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18.327" height="18.379" viewBox="0 0 18.327 18.379">
+  <g id="Group_3779" data-name="Group 3779" transform="translate(-1240.474 -490.422)">
+    <g id="file-text" transform="translate(1244 494.401)">
+      <line id="Line_78" data-name="Line 78" x1="4.5" transform="translate(0 4.626)" fill="none" stroke="#2e3192" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_2163" data-name="Path 2163" d="M3.57,0H0" transform="translate(0 9.253)" fill="none" stroke="#2e3192" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_2164" data-name="Path 2164" d="M17.766,9H8" transform="translate(-8 -9)" fill="none" stroke="#2e3192" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+    <g id="search" transform="translate(1249 499)">
+      <circle id="Ellipse_342" data-name="Ellipse 342" cx="3.5" cy="3.5" r="3.5" stroke-width="1" stroke="#2e3192" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+      <line id="Line_11" data-name="Line 11" x1="2.594" y1="2.594" transform="translate(6.5 6.5)" fill="none" stroke="#2e3192" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+    <path id="Path_2162" data-name="Path 2162" d="M17.578,26.356a.464.464,0,0,0-.474.452v6.4a1.392,1.392,0,0,1-1.423,1.356H2.372A1.392,1.392,0,0,1,.949,33.209V21.428a1.392,1.392,0,0,1,1.423-1.356H6.583a.453.453,0,1,0,0-.9H2.372A2.321,2.321,0,0,0,0,21.428V33.209a2.321,2.321,0,0,0,2.372,2.26H15.681a2.321,2.321,0,0,0,2.372-2.26v-6.4A.464.464,0,0,0,17.578,26.356Zm0,1.311" transform="translate(1275.944 490.422) rotate(90)" fill="#2e3192"/>
+  </g>
+</svg>

@@ -1,0 +1,23 @@
+$width_menu: 250px;
+$width_menu_none: 250px;
+$margin_left_body : $width_menu_none;
+$color_text : #455571;
+$color_text_hover: #2e3192;
+// define common variable
+$basic_color: #002643;
+$grey_color: #8898aa;
+$bg-color:#f1f3f9;
+$transtion_time: 0.3s;
+
+@font-face {
+    font-family: SFUIText;
+    src: url(../../fonts/SFUIText-Regular.ttf);
+}
+@font-face {
+    font-family: SFUITextBold;
+    src: url(../../fonts/SFUIText-Bold.ttf);
+}
+@font-face {
+    font-family: SFUIText-Medium;
+    src: url(../../fonts/SFUIText-Medium.ttf);
+}

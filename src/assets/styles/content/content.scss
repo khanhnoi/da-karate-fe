@@ -1,0 +1,68 @@
+.content {
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+ 
+  background-color: #fff;
+  border-radius: 10px;
+
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0px -5px 5px rgba(0, 0, 0, 0.09);
+  &-title {
+    p {
+        font-family: SFUITextBold;
+        font-size: 1.9rem;
+        font-weight: bold;
+        line-height: 1.32;
+        color: #0f0f0f;
+        letter-spacing: normal;
+    }
+  }
+  &-form {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    &--container {
+      width: 100%;
+    }
+    &--donate {
+      padding-right: 0rem;
+    }
+  }
+}
+
+.btn-table {
+  cursor: pointer;
+  img {
+    width: 18px;
+    height: 18px;
+    transition: 0.5s;
+  }
+  &:hover {
+    img {
+      transform: scale(1.08);
+    }
+  }
+}
+
+.content-content {
+  background-color: #fff;
+  padding: 0;
+}
+
+.title-filter {
+  font-family: SFUIText;
+  font-size: 17px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.12;
+  letter-spacing: normal;
+  text-align: left;
+  color: #172b4d;
+  &:hover {
+    cursor: pointer;
+    color: #00091a;
+    text-shadow: 0 0 0.5px;
+  }
+}

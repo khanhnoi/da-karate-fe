@@ -1,0 +1,14 @@
+// USER
+export const SET_USER_DATA = 'SET_USER_DATA';
+export const SET_AUTHENTICATED = 'SET_AUTHENTICATED';
+export const SET_LOADING = 'SET_LOADING';
+export const USER_REQUEST = 'USER_REQUEST';
+export const RESET_USER = 'RESET_USER';
+export const EDIT_USER = 'EDIT_USER';
+export const FORM_USER_REQUEST = 'FORM_USER_REQUEST';
+
+// BRANCH
+export const FETCH_BRANCHS = 'FETCH_BRANCHS';
+export const FETCH_BRANCH_MEMBERS = 'FETCH_BRANCH_MEMBERS';
+export const ADD_BRANCH = 'ADD_BRANCH';
+export const DELETE_BRANCH = 'DELETE_BRANCH';

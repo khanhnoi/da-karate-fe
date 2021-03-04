@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="442" height="236" viewBox="0 0 442 236">
+  <defs>
+    <filter id="BG" x="0" y="0" width="442" height="236" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feFlood flood-opacity="0.18"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_3335" data-name="Group 3335" transform="translate(-787 -925)">
+    <g transform="matrix(1, 0, 0, 1, 787, 925)" filter="url(#BG)">
+      <rect id="BG-2" data-name="BG" width="430" height="224" transform="translate(6 4)" fill="#fff"/>
+    </g>
+    <rect id="Rectangle_174" data-name="Rectangle 174" width="400" height="191" transform="translate(808 946)" fill="#f1f3f9"/>
+    <text id="File_Đính_kèm" data-name="File Đính kèm" transform="translate(1008 1103)" fill="#00a2ff" font-size="13" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-39.882" y="0">File</tspan><tspan y="0" fill="#aaa"> </tspan><tspan y="0" fill="#8898aa" font-family="SegoeUI, Segoe UI" font-weight="400">Đính kèm</tspan></text>
+    <g id="icon_upload" transform="translate(958 976.84)">
+      <g id="Ellipse_39" data-name="Ellipse 39" transform="translate(0 0.16)" fill="none" stroke="#dddfe7" stroke-width="1">
+        <ellipse cx="50" cy="49.5" rx="50" ry="49.5" stroke="none"/>
+        <ellipse cx="50" cy="49.5" rx="49.5" ry="49" fill="none"/>
+      </g>
+      <g id="Ellipse_40" data-name="Ellipse 40" transform="translate(7.175 6.883)" fill="none" stroke="#dddfe7" stroke-width="3">
+        <circle cx="42.826" cy="42.826" r="42.826" stroke="none"/>
+        <circle cx="42.826" cy="42.826" r="41.326" fill="none"/>
+      </g>
+      <circle id="Ellipse_41" data-name="Ellipse 41" cx="34.47" cy="34.47" r="34.47" transform="translate(15.531 15.239)" fill="#dddfe7"/>
+      <path id="Path_344" data-name="Path 344" d="M27.525,15.22,15.614.721a2.11,2.11,0,0,0-3.261,0L.442,15.22a2.111,2.111,0,0,0,1.631,3.456H8.063V37.5a2.1,2.1,0,0,0,2.109,2.109h7.621A2.1,2.1,0,0,0,19.9,37.5V18.676h5.991A2.111,2.111,0,0,0,27.525,15.22Z" transform="translate(35.77 30.191)" fill="#f0f2f8"/>
+    </g>
+  </g>
+</svg>

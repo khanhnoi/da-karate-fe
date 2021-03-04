@@ -1,0 +1,54 @@
+.form-select {
+	width: 160px;
+	height: 30px;
+	margin: 10px;
+	border-radius: 7px;
+	position: relative;
+
+	select {
+		width: 160px;
+		height: 30px;
+		padding-left: 10px;
+		padding-right: 10px;
+		border-radius: 7px;
+		border: 1px solid #fec92f;
+		outline: none;
+		font-size: 0.8rem;
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		appearance: none;
+		cursor: pointer;
+		transition: 0.5s;
+
+		&:focus {
+			outline: none;
+			border: 1px solid #c89701;
+		}
+
+		option {
+			background-color: #fff;
+			color: #000;
+		}
+	}
+	
+	&-down {
+		width: 10px;
+		height: 10px;
+		display: block;
+		pointer-events: none;
+		position: absolute;
+		top: 11px;
+		right: 12px;
+		transition: 0.5s;
+	}
+
+	&:hover {
+		.form-select-down {
+			transform: scale(1.2);
+		}
+		
+		select {
+			border: 1px solid #bea045;
+		}
+	}
+}

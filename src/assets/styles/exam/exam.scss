@@ -1,0 +1,33 @@
+.icon{
+    display: flex;
+    align-items: flex-end;
+    .btn-icon-btn{
+    width: 30px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+    &:hover{
+        transform: scale(1.1);
+    }
+  }
+}
+.event-status {
+  text-decoration: underline;
+  color: #00a2ff;
+}
+.list-img{
+  img{
+  min-width: 150px;
+  max-width: 100%;
+  border-radius: 10px;
+  }
+}
+.custom-text{
+  textarea.input-form.form-control{
+    height: 100px;
+  }
+  .ck-content{
+    height: 150px;
+    max-height: 250px;
+  }
+}

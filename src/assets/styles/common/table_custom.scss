@@ -1,0 +1,21 @@
+
+table.table-custom-2 tr th:last-child {
+  position: -webkit-sticky;
+  position: sticky;
+  right: -1px;
+  white-space: nowrap;
+  min-width: 80px;
+  z-index: 10;
+  background-color: #fff;
+  &:nth-child(even) {
+    background-color: #f7fafc;
+    content: "";
+    height: 100%;
+    width: 1px;
+    left: -1px;
+    top: 0;
+    & td {
+      background-color: #f7fafc !important;
+    }
+  }
+}

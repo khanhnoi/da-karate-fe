@@ -1,0 +1,25 @@
+.box-belt {
+	display: flex;
+	&-dot {
+		width: 8px;
+		height: 8px;
+		background-color: #080808;
+		border-radius: 50%;
+		margin: auto 0;
+		margin-right: 10px;
+	}
+	&-title {
+		p {
+			margin-bottom: 0.2rem;
+
+			font-size: 1rem;
+			font-weight: normal;
+			font-stretch: normal;
+			font-style: normal;
+			line-height: 1;
+			letter-spacing: normal;
+			text-align: left;
+			color: #172b4d;
+		}
+	}
+}

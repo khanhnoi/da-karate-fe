@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18.097" height="18" viewBox="0 0 18.097 18">
+    <defs>
+        <style>
+            .prefix__cls-1{fill:#2e3192}
+        </style>
+    </defs>
+    <g id="prefix__edit_1_" data-name="edit (1)" transform="translate(0 -.269)">
+        <path id="prefix__Path_2034" d="M17.578 29.214a.474.474 0 0 0-.474.474V33.9a1.425 1.425 0 0 1-1.423 1.423H2.372A1.425 1.425 0 0 1 .949 33.9V21.54a1.425 1.425 0 0 1 1.423-1.423h4.211a.474.474 0 1 0 0-.949H2.372A2.374 2.374 0 0 0 0 21.54V33.9a2.374 2.374 0 0 0 2.372 2.372h13.309a2.374 2.374 0 0 0 2.371-2.372v-4.212a.474.474 0 0 0-.474-.474zm0 0" class="prefix__cls-1" data-name="Path 2034" transform="translate(0 -18.003)"/>
+        <path id="prefix__Path_2035" d="M156.367 39.254l6.926-6.926 2.234 2.234-6.927 6.925zm0 0" class="prefix__cls-1" data-name="Path 2035" transform="translate(-148.95 -30.539)"/>
+        <path id="prefix__Path_2036" d="M132.543 199.687l2.468-.684-1.785-1.785zm0 0" class="prefix__cls-1" data-name="Path 2036" transform="translate(-126.256 -187.609)"/>
+        <path id="prefix__Path_2037" d="M318.707.615a1.187 1.187 0 0 0-1.677 0l-.5.5 2.234 2.234.5-.5a1.187 1.187 0 0 0 0-1.677zm0 0" class="prefix__cls-1" data-name="Path 2037" transform="translate(-301.513)"/>
+    </g>
+</svg>

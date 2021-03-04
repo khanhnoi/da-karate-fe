@@ -1,0 +1,296 @@
+.student-nav {
+  &-item {
+    flex: 0 0 25%;
+    max-width: 25%;
+    text-align: center;
+    display: block;
+    background-color: #e2eef8;
+    padding: 0.5rem 30px;
+    border-radius: 5px;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  & .active {
+    background-color: #002643;
+    color: #fff;
+  }
+}
+
+.student-certificate {
+  &-level {
+    &-title {
+      p {
+        padding: 2rem 0;
+        margin-bottom: 0;
+        font-size: 21px;
+        font-weight: 600;
+        line-height: 0.95;
+        color: #172b4d;
+      }
+    }
+    &-left {
+      flex: 0 0 50%;
+      max-width: 50%;
+      border-right: solid 1px #495057;
+
+      &-title {
+        padding: 2rem 0;
+        font-size: 21px;
+        font-weight: 600;
+        line-height: 0.95;
+        text-align: center;
+        color: #172b4d;
+
+        p {
+          margin-bottom: 0;
+        }
+      }
+
+      &-band {
+        height: 100%;
+        padding: 1rem 0;
+        background-color: #f7fafc;
+        border-top: 1px solid #000;
+        border-bottom: 1px solid #000;
+
+        & > div {
+          text-align: center;
+          border-radius: 5px;
+          padding: 1rem 2rem;
+          background-color: #461c01;
+          margin: 15%;
+          width: 70%;
+        }
+
+        span {
+          font-weight: 600;
+          line-height: 0.95;
+          color: #fff;
+          font-size: 21px;
+        }
+      }
+
+      &-another {
+        height: 100%;
+        padding: 1rem 0;
+        border-bottom: solid 1px #495057;
+
+        & > div {
+          text-align: center;
+          padding: 15%;
+        }
+
+        span {
+          font-weight: 600;
+          line-height: 0.95;
+          font-size: 21px;
+        }
+      }
+    }
+
+    &-right {
+      flex: 0 0 50%;
+      max-width: 50%;
+
+      &-title {
+        padding: 2rem 0;
+        font-size: 21px;
+        font-weight: 600;
+        line-height: 0.95;
+        text-align: center;
+        color: #172b4d;
+
+        p {
+          margin-bottom: 0;
+        }
+      }
+
+      &-band {
+        padding: 1rem 0;
+        background-color: #f7fafc;
+        border-top: 1px solid #000;
+        border-bottom: 1px solid #000;
+        height: 100%;
+
+        & > div {
+          text-align: center;
+          border-radius: 5px;
+          padding: 1rem 2rem;
+        }
+      }
+
+      &-another {
+        padding: 1rem 0;
+        border-bottom: 1px solid #000;
+        height: 100%;
+
+        & > div {
+          text-align: center;
+          border-radius: 5px;
+          padding: 1rem 2rem;
+        }
+      }
+    }
+  }
+}
+.student-certificate-button {
+  &-new {
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px 0 rgba(44, 40, 40, 0.11);
+    background-color: #2e3192;
+    color: #fff;
+    padding: 0.5rem 2rem;
+    margin-right: 1rem;
+  }
+
+  &-edit {
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px 0 rgba(44, 40, 40, 0.11);
+    background-color: #fcaf17;
+    color: #fff;
+    padding: 0.5rem 2rem;
+    margin-left: 1rem;
+  }
+}
+
+.status-user-1 {
+  width: 8px;
+  height: 8px;
+  background-color: green;
+  border-radius: 50%;
+  margin: auto 0;
+  margin-right: 10px;
+}
+
+.belt-user-1 {
+  width: 12px;
+  height: 12px;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  margin: auto 0;
+  margin-right: 10px;
+}
+
+.belt-user-2 {
+  width: 12px;
+  height: 12px;
+  background-color: yellow;
+  margin: auto 0;
+  margin-right: 10px;
+}
+
+.belt-user-3 {
+  width: 12px;
+  height: 12px;
+  background-color: green;
+  margin: auto 0;
+  margin-right: 10px;
+}
+.belt-user-4 {
+  width: 12px;
+  height: 12px;
+  background-color: brown;
+  margin: auto 0;
+  margin-right: 10px;
+}
+.belt-user-5 {
+  width: 12px;
+  height: 12px;
+  background-color: #080808;
+  margin: auto 0;
+  margin-right: 10px;
+}
+.belt-user-6 {
+  width: 12px;
+  height: 12px;
+  background-color: #080808;
+  margin: auto 0;
+  margin-right: 10px;
+}
+.belt-user-7 {
+  width: 12px;
+  height: 12px;
+  background-color: #080808;
+  margin: auto 0;
+  margin-right: 10px;
+}
+.belt-user-8 {
+  width: 12px;
+  height: 12px;
+  background-color: #080808;
+  margin: auto 0;
+  margin-right: 10px;
+}
+.belt-user-9 {
+  width: 12px;
+  height: 12px;
+  background-color: #080808;
+  margin: auto 0;
+  margin-right: 10px;
+}
+.belt-user-10 {
+  width: 12px;
+  height: 12px;
+  background-color: #080808;
+  margin: auto 0;
+  margin-right: 10px;
+}
+.belt-user-11 {
+  width: 12px;
+  height: 12px;
+  background-color: #080808;
+  margin: auto 0;
+  margin-right: 10px;
+}
+.belt-user-12 {
+  width: 12px;
+  height: 12px;
+  background-color: #080808;
+  margin: auto 0;
+  margin-right: 10px;
+}
+.belt-user-13 {
+  width: 12px;
+  height: 12px;
+  background-color: #080808;
+  margin: auto 0;
+  margin-right: 10px;
+}
+.belt-user-14 {
+  width: 12px;
+  height: 12px;
+  background-color: #080808;
+  margin: auto 0;
+  margin-right: 10px;
+}
+
+//certificate
+.box-certificate {
+  display: flex;
+  &-icon {
+    margin: 0 10px;
+    img {
+      width: 15px;
+    }
+  }
+  &-text {
+    p {
+      margin-top: 5px;
+      margin-bottom: 0;
+      font-family: SFUIText;
+      font-size: 0.9rem;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.31;
+      letter-spacing: normal;
+      text-align: left;
+      color: #10aee8;
+    }
+  }
+}
